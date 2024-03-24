@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "nodenext",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "paths": {
+        "@/*": ["src/*"]
+    }
+  },
+  "include": ["src"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}
